@@ -12,11 +12,9 @@ module.exports = (env, argv) => {
     output: {
       path: path.join(__dirname, '/dist'),
       filename: '[name].[contenthash:8].bundle.js',
-      publicPath: '.',
     },
     // webpack 5 comes with devServer which loads in development mode
     devServer: {
-      port: 3000,
       watchFiles: ['src/**/*'],
       historyApiFallback: true,
       onListening: function (devServer) {

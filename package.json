@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "react-router-tutorial",
   "version": "1.0.0",
-  "description": "react 18 with webpack 5 boilerplate",
+  "description": "react-router official tutorial follow-up",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack serve --mode development",
@@ -17,11 +17,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoyangtsai/react-webpack-boilerplate.git"
+    "url": "git+https://github.com/hoyangtsai/react-router-tutorial.git"
   },
   "dependencies": {
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
